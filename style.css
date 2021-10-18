@@ -1,0 +1,19 @@
+h1 {
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
+    color: hsl(207, 57%, 20%);
+}
+p {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: hsl(38, 82%, 12%);
+}
+.link {
+    font-size: 24px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color:hsl(36, 92%, 87%);
+    color: hsl(207, 22%, 20%);
+}
+.background {
+    background-color: hsl(0, 66%, 93%);
+}
