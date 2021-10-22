@@ -17,3 +17,6 @@ p {
 .background {
     background-color: hsl(0, 66%, 93%);
 }
+.red-button {
+    color: hsl(358, 88%, 44%)
+}
