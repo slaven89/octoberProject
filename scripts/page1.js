@@ -1,10 +1,8 @@
 console.log("the js file is running with the site.");
 
 let redButton = document.querySelector(".red-button");
-let allred = document.querySelector(".background");
+let background = document.querySelector(".background");
 
-function colorchange() {
-    allred.style.font-family = Calibri;
-}
-
-redButton.onclick = colorchange;
+redButton.addEventListener("click", () => {
+    console.log("the button has clicked");
+});
