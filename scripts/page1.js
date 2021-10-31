@@ -5,5 +5,5 @@ let redButton = document.querySelector('#red-button');
 console.log(redButton);
 
 redButton.addEventListener('click', function(){
-    document.body.style.background = 'red';
+    document.body.style.background= 'red';
 })
