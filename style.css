@@ -15,8 +15,13 @@ p {
     color: hsl(207, 22%, 20%);
 }
 .background {
-    background-color: hsl(0, 66%, 93%);
+    background-color: hsl(0, 66%, 87%);
 }
-.red-button {
-    color: hsl(358, 88%, 44%)
+#background1 {
+    background-color:hsl(0, 66%, 87%);
+    font-family:'Times New Roman', Times, serif;
+}
+#red-button {
+    color: hsl(358, 88%, 44%);
+    background-color:hsl(207, 22%, 20%);
 }

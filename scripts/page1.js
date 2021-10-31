@@ -1,10 +1,9 @@
 console.log("the js file is running with the site.");
 
-let redButton = document.getElementsByClassName('.red-button');
-let pageColor = document.getElementsByClassName('.background');
+let redButton = document.querySelector('#red-button');
 
-redButton.onclick = changeColorRed();
+console.log(redButton);
 
-function changeColorRed() {
-    console.log("47")
-};
+redButton.addEventListener('click', function(){
+    document.body.style.background = 'red';
+})
