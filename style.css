@@ -4,24 +4,36 @@ h1 {
     color: hsl(207, 57%, 20%);
 }
 p {
-    font-size: 28px;
+    font-size: 20px;
     font-family: 'Times New Roman', Times, serif;
     color: hsl(38, 82%, 12%);
 }
 .link {
-    font-size: 20px;
+    font-size: 24px;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color:hsl(36, 92%, 87%);
     color: hsl(207, 22%, 20%);
 }
-.background {
-    background-color: hsl(0, 66%, 87%);
-}
-#background1 {
+
+.background1 {
     background-color:hsl(0, 66%, 87%);
-    font-family:'Times New Roman', Times, serif;
 }
 #red-button {
     color: hsl(358, 88%, 44%);
+    background-color:hsl(207, 22%, 20%);
+}
+#blue-button {
+    color: hsl(246, 78%, 71%);
+    background-color:hsl(207, 22%, 20%);
+}
+#green-button {
+    color:hsl(135, 76%, 44%);
+    background-color:hsl(207, 22%, 20%);
+}
+#yellow-button {
+    color:hsl(56, 80%, 52%);
+    background-color:hsl(207, 22%, 20%);
+}
+#return-button {
+    color:hsl(0, 0%, 100%);
     background-color:hsl(207, 22%, 20%);
 }
