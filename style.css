@@ -16,24 +16,33 @@ p {
 
 .background1 {
     background-color:hsl(0, 66%, 87%);
+    width: 600px;
+    max-width: 90%;
+    margin-left: 300px;
+    display: block;
 }
 #red-button {
     color: hsl(358, 88%, 44%);
     background-color:hsl(207, 22%, 20%);
+    font-size: 32px;
 }
 #blue-button {
     color: hsl(246, 78%, 71%);
     background-color:hsl(207, 22%, 20%);
+    font-size: 32px;
 }
 #green-button {
     color:hsl(135, 76%, 44%);
     background-color:hsl(207, 22%, 20%);
+    font-size: 32px;
 }
 #yellow-button {
     color:hsl(56, 80%, 52%);
     background-color:hsl(207, 22%, 20%);
+    font-size: 32px;
 }
 #return-button {
     color:hsl(0, 0%, 100%);
     background-color:hsl(207, 22%, 20%);
+    font-size: 32px;
 }
