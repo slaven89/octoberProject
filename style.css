@@ -21,6 +21,14 @@ p {
     margin-left: 300px;
     display: block;
 }
+
+.entryfield {
+    width: 450px;
+    height: 60px;
+    font-size: 48px;
+}
+
+
 #red-button {
     color: hsl(358, 88%, 44%);
     background-color:hsl(207, 22%, 20%);
