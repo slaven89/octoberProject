@@ -5,15 +5,18 @@
 <link rel="shortcut icon" href="#">
 <link rel="stylesheet" href="style.css">
 </head>
+<script src="scripts/page2.js"></script>
 <body class="background1">
-    <form style="margin-top: 20px;">
-        <input class="entryfield" id="fullname" type="text" placeholder="First and Last Name">
+    <div class="formwrapper">
+    <form style="margin-top: 20px;" class="form">
+            <input class="entryfield" id="fullName" type="text" placeholder="First and Last Name" required>
         <div style="margin-top: 30px; margin-bottom: 30px;">
-            <input class="entryfield" id="dayofbirth" type="date" placeholder="Birthday">
+            <input class="entryfield" id="birthDate" type="date" placeholder="Birthday" required>
         </div>
-        <button href="page2cont.html">Enter New Person</button>
+        <button style="height: 40px; width: 200px; font-size: 12pt;" id="sbmt">Enter New Person</button>
     </form>
+    <br/>
     <a class="link" href= index.html>Return to Main</a>
-    <script src="scripts/page2.js"></script>
+    </div>
 </body>
 </html>
