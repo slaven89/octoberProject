@@ -15,6 +15,7 @@ const submitForm = (ev) => {
     console.log('added' , storedBirthday);
 
     localStorage.setItem('ListofBirthdays', JSON.stringify(storedBirthdays) );
+    document.location.href= "page2cont.html";
 }
 
 document.addEventListener('DOMContentLoaded', () => {
