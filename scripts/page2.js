@@ -1,4 +1,4 @@
-console.log("the js is working on this page.");
+
 
 let storedBirthdays = [];
 
@@ -12,9 +12,8 @@ const submitForm = (ev) => {
     storedBirthdays.push(storedBirthday);
     document.querySelector('form').reset;
 
-    console.log('added' , storedBirthday);
+    localStorage.setItem('listOfBirthdays', JSON.stringify(storedBirthdays) );
 
-    localStorage.setItem('ListofBirthdays', JSON.stringify(storedBirthdays) );
     document.location.href= "page2cont.html";
 }
 
