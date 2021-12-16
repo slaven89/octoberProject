@@ -10,11 +10,11 @@ const submitForm = (ev) => {
         birthday: document.getElementById('birthDate').value
     }
     storedBirthdays.push(storedBirthday);
-    document.querySelector('form').reset;
-
-    localStorage.setItem('listOfBirthdays', JSON.stringify(storedBirthdays) );
-
-    document.location.href= "page2cont.html";
+    
+    sessionStorage.setItem('listOfBirthdays', JSON.stringify(storedBirthdays) );
+    console.log('added' , storedBirthday , 'to the array.');
+    console.log(storedBirthdays);
+    document.forms[0].reset();
 }
 
 document.addEventListener('DOMContentLoaded', () => {
